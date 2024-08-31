@@ -1,0 +1,44 @@
+Basic Level SQL Questions
+
+1)Write an SQL query to select all columns for properties located in the "Central" region.
+2)Write an SQL query to list all properties sorted by their price in descending order.
+3)Write an SQL query to count the total number of properties in the dataset.
+4)Write an SQL query to select only the Property ID, Location, and Price ($) of properties that have a swimming pool.
+5)Write an SQL query to find properties with a price less than $500,000.
+6)Write an SQL query to find properties where the owner's contact number starts with "+1".
+
+Intermediate Level SQL Questions
+1)Write an SQL query to calculate the average price of properties for each region
+2)Write an SQL query to find properties that have at least 3 bedrooms, a garage, and are located in the "West" region.
+3)Write an SQL query to list all properties built in or after the year 2000.
+4)Write an SQL query to find properties that are either in the "West" or "East" region.
+5)Write an SQL query to calculate the total number of properties with a garage and without a garage for each region.
+6)Write an SQL query to create a new column that labels properties as "Luxury" if the price is above $1,000,000, otherwise "Standard"
+
+
+Advanced Level SQL Questions
+1)Write an SQL query to find the most expensive property in each region.
+2)Assume you have a separate table owners with owner details (Owner ID, Owner Name, Owner Contact). Write an SQL query to list all properties along with the corresponding owner details.
+3)Write an SQL query to rank properties by their price within each region.
+4)Write an SQL query to find properties whose price is above the average price in their respective region.
+5)Assuming you have a hierarchical structure (e.g., locations within a region), write an SQL query using a Common Table Expression (CTE) to display the hierarchy of locations
+6)Write an SQL query to calculate the moving average of property prices over the last 3 rows (based on the Property ID order).
+7)Write an SQL query to pivot the data to show the number of properties in each region by property type (e.g., Condo, Townhouse, House).
+8)Write an SQL query to join property_prices_data with a hypothetical table property_sales_data (which includes columns Property ID, Sale Date, Sale Price), to find properties that have been sold more than once.
+
+Identify patterns over time, such as price changes based on property age or construction year.
+
+Compare average property prices across different regions.
+Identify regions with the highest and lowest property values.
+
+Evaluate the impact of different features on property prices, such as the presence of amenities like swimming pools or gardens.
+Determine which features are associated with higher or lower prices.
+
+Analyze property prices based on market segments (e.g., Luxury, Affordable).
+Understand how different market segments influence property values.
+
+Examine the relationship between the age of the property and its price.
+Identify if newer properties tend to be priced higher or if older properties have a different pricing trend.
+
+Generate summary reports based on your analysis.
+Include key metrics such as average prices, regional comparisons, and feature impacts.
